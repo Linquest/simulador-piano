@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #bebebe;
+}
+
+.container {
+    width: 780px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    padding: 35px 40px;
+}
+
+header h2{
+    font-size: 1.6rem;
+}
+
+header .column{
+    display: flex;
+    align-items: center;
+}
+
+header .column span{
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1.20rem;
+}
+
+.volume-slider input{
+    accent-color: #fff;
+    width: 100px;
+}
+
+.keys-check input{
+    width: 60px;
+    height: 30px;
+    appearance: none;
+    border-radius: 30px;
+    background-color: darkgray;
+    cursor: pointer;
+    position: relative;
+}
